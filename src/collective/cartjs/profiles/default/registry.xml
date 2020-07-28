@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<registry
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="collective.cartjs">
+
+<!-- -*- extra stuff goes here -*- -->
+
+    <records prefix="collective.cartjs/cartjs"
+            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+        <value key="resources">
+            <element>plone-logged-in</element>
+        </value>
+        <value key="enabled">True</value>
+        <value key="js">++resource++cartjs/cart.js</value>
+        <value key="js">++resource++cartjs/cart.min.js</value>
+        <value key="js">++resource++cartjs/rivets-cart.js</value>
+        <value key="js">++resource++cartjs/rivets-cart.min.js</value>
+    </records>
+
+</registry>
